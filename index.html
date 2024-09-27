@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+</body>
+<form action="">
+    <fieldset>
+        <legend>Informació del pokémon</legend>
+        <label for="nombre">Nombre del Pokémon </label>
+        <input type="text" name="nombre">
+        <br>
+        <br>
+        <label for="nombre">Número del Pokédex </label>
+        <input type="text" name="nombre">
+        <br>
+        <br>
+        <div>
+            <label for="radio">Tipo de Pokémon</label>
+            <br>
+            <input type="radio" name="tipo" value="fuego">
+            <label for="fuego">Fuego</label>
+            <br>
+
+            <input type="radio" name="tipo" value="agua">
+            <label for="agua">Agua</label>
+            <br>
+
+            <input type="radio" name="tipo" value="planta">
+            <label for="planta">Planta</label>
+            <br>
+
+            <input type="radio" name="tipo" value="electrico">
+            <label for="electrico">Eléctrico</label>
+            <br>
+        </div>
+
+        <label for="evolucion">Nivel de evolución</label>
+        <select name="evolucion" id="evolucion">
+            <option value="basico">Básico</option>
+            <option value="primeraEvolucion">Primera evolución</option>
+            <option value="segundaEvolucion">Segunda evolución</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="Poder">Nivel de poder:</label>
+        <input type="range" name="poder" id="podernivel" max="100" min="1" value="50" >
+
+        <br>
+        <br>
+        <label for="descripcion">Descripción del Pokémon</label>
+        <br>
+        <textarea name="descripcion" placeholder="Escribe una breve descripción" id="descripcionPokemon"></textarea>
+
+        <br>
+        <input type="submit" value="Agregar Pokémon">
+        <input type="reset" value="Limpiar formulario">
+        
+    </fieldset>
+</form>
+
+
+</html>
